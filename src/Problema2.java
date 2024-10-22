@@ -4,7 +4,7 @@ Un element din tablou este "lider" dacă este mai mare decât toate elementele d
 public class Problema2 {
     static void lider(int[] tablou) {
         int maxDreapta = tablou[tablou.length - 1];
-        System.out.println(maxDreapta);
+        System.out.println(maxDreapta);//ultimul element este lider
         for (int i = tablou.length - 2; i >= 0; i--) {
             if (tablou[i] > maxDreapta) {
                 maxDreapta = tablou[i];
